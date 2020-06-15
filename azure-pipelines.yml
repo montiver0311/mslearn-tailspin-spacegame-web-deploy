@@ -11,7 +11,7 @@ stages:
   - job: 'Build'
     displayName: 'Build job'
     pool:
-      vmImage: 'ubuntu-16.04'
+      vmImage: 'windows-2019'
       demands:
         - npm
 
